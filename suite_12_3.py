@@ -16,32 +16,26 @@ class RunnerTest(unittest.TestCase):
 
     @skip_if_frozen
     def test_run(self):
-        # Ваш тест
         pass
 
     @skip_if_frozen
     def test_walk(self):
-        # Ваш тест
         pass
 
-    # Добавьте остальные тесты
 
 class TournamentTest(unittest.TestCase):
     is_frozen = True
 
     @skip_if_frozen
     def test_first_tournament(self):
-        # Ваш тест
         pass
 
     @skip_if_frozen
     def test_second_tournament(self):
-        # Ваш тест
         pass
 
     @skip_if_frozen
     def test_third_tournament(self):
-        # Ваш тест
         pass
 
 # Создание тестового набора
